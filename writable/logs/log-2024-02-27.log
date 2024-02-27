@@ -1,0 +1,9 @@
+CRITICAL - 2024-02-27 01:08:14 --> ErrorException: include(C:\xampp\htdocs\Proyecto-Granja\system\Debug/Toolbar/Views/temperaturastoolbarloader.js): Failed to open stream: No such file or directory
+in SYSTEMPATH\Debug\Toolbar.php on line 453.
+ 1 SYSTEMPATH\Debug\Toolbar.php(453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xampp\\htdocs\\Proyecto-Granja\\system\\Debug/Toolbar/Views/temperaturastoolbarloader.js): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Proyecto-Granja\\system\\Debug\\Toolbar.php', 453)
+ 2 SYSTEMPATH\Debug\Toolbar.php(453): include()
+ 3 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

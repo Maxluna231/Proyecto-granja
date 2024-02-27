@@ -1,0 +1,187 @@
+CRITICAL - 2024-02-26 04:19:35 --> ParseError: syntax error, unexpected token "<", expecting end of file
+in APPPATH\Views\temperaturas.php on line 3.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 3 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 05:10:06 --> ParseError: syntax error, unexpected variable "$temperaturas"
+in APPPATH\Views\temperaturas.php on line 3.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 3 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 05:41:46 --> ErrorException: Undefined variable $jsonData
+in APPPATH\Views\temperaturas.php on line 6.
+ 1 APPPATH\Views\temperaturas.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jsonData', 'C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 5 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 05:42:00 --> ErrorException: Undefined variable $jsonData
+in APPPATH\Views\temperaturas.php on line 6.
+ 1 APPPATH\Views\temperaturas.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jsonData', 'C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php', 6)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 5 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 05:57:14 --> ErrorException: Undefined variable $resultado
+in APPPATH\Views\temperaturas.php on line 3.
+ 1 APPPATH\Views\temperaturas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 5 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 05:57:23 --> ErrorException: Undefined variable $resultado
+in APPPATH\Views\temperaturas.php on line 3.
+ 1 APPPATH\Views\temperaturas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultado', 'C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Proyecto-Granja\\app\\Views\\temperaturas.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 5 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 06:10:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "temperaturas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('temperaturas.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('temperaturas', [], true)
+ 3 APPPATH\Controllers\TemperaturaController.php(19): view('temperaturas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+INFO - 2024-02-26 07:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-26 08:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-26 08:50:15 --> mysqli_sql_exception: Table 'granja.temperaturas' doesn't exist in C:\xampp\htdocs\Proyecto-Granja\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Proyecto-Granja\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Proyecto-Granja\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Proyecto-Granja\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Proyecto-Granja\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Proyecto-Granja\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Proyecto-Granja\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Proyecto-Granja\app\Controllers\TemperaturaController.php(18): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Proyecto-Granja\system\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+#8 C:\xampp\htdocs\Proyecto-Granja\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+#9 C:\xampp\htdocs\Proyecto-Granja\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Proyecto-Granja\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Proyecto-Granja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-26 08:50:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'granja.temperaturas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\TemperaturaController.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 08:50:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'granja.temperaturas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\TemperaturaController.php(18): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 08:50:15 --> [Caused by] mysqli_sql_exception: Table 'granja.temperaturas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Temperaturas`
+WHERE `Temperaturas`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TemperaturaController.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\TemperaturaController->getTemperaturas()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TemperaturaController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 22:34:40 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+in SYSTEMPATH\Debug\Toolbar.php on line 453.
+ 1 SYSTEMPATH\Debug\Toolbar.php(453): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\xampp\\htdocs\\Proyecto-Granja\\system\\Debug\\Toolbar.php', 453)
+ 2 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-26 22:42:19 --> CodeIgniter\Filters\Exceptions\FilterException: "toolbar" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 577.
+ 1 SYSTEMPATH\Filters\Filters.php(577): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH\Filters\Filters.php(262): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH\Filters\Filters.php(172): CodeIgniter\Filters\Filters->initialize('temperaturas/gettemperaturas')
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('temperaturas/gettemperaturas', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
+CRITICAL - 2024-02-26 22:42:24 --> CodeIgniter\Filters\Exceptions\FilterException: "toolbar" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 577.
+ 1 SYSTEMPATH\Filters\Filters.php(577): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH\Filters\Filters.php(262): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH\Filters\Filters.php(172): CodeIgniter\Filters\Filters->initialize('temperaturas/gettemperaturas')
+ 4 SYSTEMPATH\CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('temperaturas/gettemperaturas', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Proyecto-Granja\\public\\index.php')
